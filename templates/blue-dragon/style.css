@@ -1,0 +1,67 @@
+/* General body styles */
+.card-container {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1a1f36, #004080);
+}
+
+/* General Card Design */
+.card-box {
+  width: 90%;
+  max-width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  color: #ffffff;
+  background: linear-gradient(135deg, #004080, #0066cc);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Front Section */
+.card-header {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px 0;
+  border-bottom: 4px solid #ffffff70;
+  color: #fff;
+}
+
+.example-text {
+  font-size: 18px;
+  padding: 10px;
+  opacity: 0.9;
+}
+
+/* Back Section */
+.card-back-content {
+  padding: 20px 15px;
+  font-size: 16px;
+  border-top: 4px solid #ffffff70;
+  color: #e0e0e0;
+  line-height: 1.8;
+}
+
+/* Meaning Box & Alignment */
+.meaning {
+  font-size: 18px;
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 10px auto;
+  max-width: 80%;
+  text-align: center;
+}
+
+/* Responsive card sizing and box transitions
+  .card-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+   */
