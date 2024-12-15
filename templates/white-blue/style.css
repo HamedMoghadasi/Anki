@@ -1,0 +1,97 @@
+/* General body styles */
+.card-container {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    135deg,
+    #f6f7fb,
+    #dbeafe
+  ); /* Light gradient background */
+}
+
+/* General Card Design */
+.card-box {
+  width: 90%;
+  max-width: 500px;
+  background: #ffffff; /* White card */
+  border-radius: 15px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 2px solid #e0f2fe; /* Soft border */
+}
+
+/* Header (Front Text) */
+.card-header {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e3a8a; /* Dark blue header */
+  padding: 20px 15px;
+  background: linear-gradient(90deg, #93c5fd, #60a5fa); /* Header gradient */
+  color: #ffffff; /* White text */
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Example Text */
+.example-text {
+  font-size: 18px;
+  color: #1f2937; /* Darker gray */
+  padding: 15px 20px;
+  background: #f9fafb; /* Light background for separation */
+  border-bottom: 1px solid #e5e7eb; /* Subtle divider */
+}
+
+/* Back Section */
+.card-back-content {
+  padding: 20px;
+  background: #f8fafc; /* Light gray background */
+  color: #374151; /* Medium-dark text */
+}
+
+/* Meaning Box */
+.meaning {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2563eb; /* Blue text for highlight */
+  background: #dbeafe; /* Light blue background */
+  padding: 12px;
+  border-radius: 8px;
+  margin: 15px auto;
+  max-width: 80%;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button-like Example Translation */
+.example-translate {
+  font-size: 16px;
+  font-weight: 500;
+  color: #2563eb; /* Highlighted text */
+  margin-top: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.example-translate:hover {
+  color: #2563eb; /* No color change on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .card-box {
+    width: 95%;
+  }
+
+  .card-header {
+    font-size: 22px;
+  }
+
+  .example-text,
+  .meaning {
+    font-size: 16px;
+  }
+}

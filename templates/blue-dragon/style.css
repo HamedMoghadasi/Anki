@@ -14,7 +14,7 @@
 /* General Card Design */
 .card-box {
   width: 90%;
-  max-width: 500px;
+  max-width: 550px;
   border-radius: 15px;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
@@ -28,7 +28,7 @@
   font-size: 24px;
   font-weight: bold;
   padding: 20px 0;
-  border-bottom: 4px solid #ffffff70;
+  border-bottom: 4px dashed #ffffff70;
   color: #fff;
 }
 
@@ -36,6 +36,15 @@
   font-size: 18px;
   padding: 10px;
   opacity: 0.9;
+  line-height: 1.8;
+}
+
+.word-meaning {
+  font-weight: bold;
+  border-bottom: 2px dashed #ffffff30;
+  padding: 8px;
+  margin-bottom: 8px;
+  font-size: 20px;
 }
 
 /* Back Section */
@@ -49,19 +58,19 @@
 
 /* Meaning Box & Alignment */
 .meaning {
-  font-size: 18px;
+  font-size: 17px;
   padding: 10px;
   color: #ffffff;
   border-radius: 8px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.4);
   margin: 10px auto;
-  max-width: 80%;
+  max-width: 90%;
   text-align: center;
 }
 
 /* Responsive card sizing and box transitions
-  .card-box:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-  }
-   */
+.card-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+ */

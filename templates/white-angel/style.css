@@ -1,0 +1,82 @@
+/* General body styles */
+.card-container {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f7fb; /* Light gray background */
+}
+
+/* General Card Design */
+.card-box {
+  width: 90%;
+  max-width: 500px;
+  background: #ffffff; /* White card */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-box:hover {
+  transform: translateY(-5px); /* Subtle lift on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Header (Front Text) */
+.card-header {
+  font-size: 26px;
+  font-weight: 600;
+  color: #333; /* Dark text */
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0; /* Subtle separator */
+}
+
+/* Example Text */
+.example-text {
+  font-size: 18px;
+  color: #555; /* Slightly lighter text */
+  padding: 15px 20px;
+  line-height: 1.5;
+}
+
+/* Back Section */
+.card-back-content {
+  padding: 15px 20px;
+  font-size: 16px;
+  color: #444; /* Medium-dark text */
+}
+
+/* Meaning Box */
+.meaning {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0066cc; /* Quizlet blue */
+  background: #eaf3ff; /* Light blue background */
+  padding: 10px;
+  border-radius: 8px;
+  margin: 15px auto;
+  max-width: 80%;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .card-box {
+    width: 95%;
+  }
+
+  .card-header {
+    font-size: 22px;
+  }
+
+  .example-text,
+  .meaning {
+    font-size: 16px;
+  }
+}
